@@ -7,4 +7,4 @@ from time import sleep
 
 
 def wait_for_x_seconds():
-    sleep(8)
+    sleep(30)
