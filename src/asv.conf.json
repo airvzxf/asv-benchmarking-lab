@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "project": "asv-benchmarking-lab",
+  "project_url": "https://rovisoft.net/",
+  "show_commit_url": "https://github.com/airvzxf/asv-benchmarking-lab/commits/",
+  "environment_type": "virtualenv",
+  "branches": [
+    "feat/experiment_01_starter_kick"
+  ],
+  "repo": "..",
+  "repo_subdir": "src",
+  "benchmark_dir": "benchmarks",
+  "env_dir": ".asv/env",
+  "results_dir": ".asv/results",
+  "html_dir": ".asv/html",
+  "regressions_thresholds": {
+    "some_benchmark": 0.01,
+    "another_benchmark": 0.5
+  }
+}
