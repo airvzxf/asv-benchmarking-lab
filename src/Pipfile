@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+asv = "0.6.3"
+setuptools = "69.2.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3"
